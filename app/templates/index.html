@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer-link {
+            text-decoration: none; 
+            color: inherit
+        }
+
+        .footer-link:hover {
+            color: #0074D9;
+        }
+    </style>
+    <title>Markdown2LaTeX</title>
+</head>
+<body>
+    <br>
+    <h2 style="text-align: center;">Markdown2LaTeX</h2>
+    <p class="center">
+        This is a Notable-flavored Markdown to LaTeX converter. Upload a .md file below and click the button to view your output. Then, save the output as a file. 
+
+        <br>
+        <br>
+
+        <b>Note</b>: this was made by me for myself. When I write in markdown, I often use a set of standards customely developed in my mind and, as such, I wrote this program to tailor to those standards. Therefore, it is unlikely this will work for <em>all</em> inputs, but it should still produce a reasonable output. 
+    </p> 
+<br> 
+
+<div class='center' style="border: 2px solid green;">
+    Input file here: 
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+    <!-- <a href=get_usernames ><button style="height:35px;width:60px">Click!</button></a> -->
+  </div>
+
+<div class="center">
+    <p>Made by <a class='footer-link' href="https://rosikand.github.io/" target="_BLANK">Rohan Sikand</a> &middot; <a class='footer-link' href="https://github.com/rosikand/random-username" target="_BLANK">Source</a> &middot; Powered by <a class='footer-link' href="https://www.pythonanywhere.com/" target="_BLANK">pythonanywhere</a></p>
+</div>
+
+</body>
+</html>
