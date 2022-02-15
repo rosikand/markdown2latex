@@ -5,13 +5,13 @@ Simple program that produces a LaTeX output based on markdown source as input.
 
 ## Example 
 
-`examples/sample_input.md` 
+`example/sample_input.md`: 
 ```markdown
 ## This is a sample input
 
 It is a pretty nice looking document and even has some in-line `code` as well as **bold** characters! 
 ```
-Running `python3 markdown2latex.py examples/sample_input.md > examples/sample_output.tex` produces `examples/sample_output.tex`: 
+Running `python3 markdown2latex.py example/sample_input.md > example/sample_output.tex` produces `example/sample_output.tex`: 
 ```latex
 \subsection{This is a sample input}
 
